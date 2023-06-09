@@ -4,8 +4,13 @@
 
 int main()
 {
+  char name[100];
   int d[2], total = 0;
   srand((unsigned int)time(NULL));
+
+  printf("What is your name?\n");
+  scanf("%s", &name);
+  printf("Hello, %s!\n", name);
   
   printf("Rolling dice...\n");
 
